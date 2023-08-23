@@ -1,15 +1,8 @@
 <template>
-  <div>
-  
-  </div>
   <Nav />
-  <router-view></router-view>
+  <RouterView />
 </template>
 
-<script>
+<script setup>
   import Nav from '@/components/Nav.vue'
-  
-  export default {
-    components: {Nav}
-  }
 </script>
