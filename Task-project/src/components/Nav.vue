@@ -4,12 +4,12 @@
 </template>
 
 <script setup>
-  import { useRouter } from 'vue-router'
+  import {useRouter} from 'vue-router'
   
   const router = useRouter()
-  
+
   function transitionPage(page) {
-  router.push(`/${page}`)
-}
+    router.push(`/${page}`)
+  }
 
 </script>

@@ -3,7 +3,8 @@
 <Loader v-if="isPostLoading" />
 <ul v-if="!isPostLoading && !isError">
   <CardsItem 
-    v-for="post in posts" :key="post.id"
+    v-for="post in posts" 
+    :key="post.id"
     :id="post.id"
     :title="post.title"
   />
